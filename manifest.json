@@ -1,0 +1,15 @@
+{
+    "name": "achgut",
+    "description": "Wrapper for achgut",
+    "architecture": "all",
+    "title": "achgut",
+    "hooks": {
+        "achgut": {
+            "apparmor": "achgut.apparmor",
+            "desktop":  "achgut.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Johan H van Breda <johan.van.breda@protonmail.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
